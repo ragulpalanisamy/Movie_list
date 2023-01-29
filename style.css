@@ -1,0 +1,34 @@
+#searchbar{
+  margin-left: 15%;
+  padding:15px;
+  border-radius: 10px;
+}
+
+input[type=text] {
+   width: 30%;
+   -webkit-transition: width 0.15s ease-in-out;
+   transition: width 0.15s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 70%;
+}
+
+#list{
+ font-size:  1.5em;
+ margin-left: 90px;
+}
+
+.movies{
+display: none;    
+} 
+body{
+  background-image: url("https://media.istockphoto.com/id/877787978/photo/dark-blue-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=ESrP0j2wQ0LwEbm3TwdoDrJZZjnQGMRNCxKXgBgqh_s=") ;
+}
+
+@media (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+}
+
